@@ -6,84 +6,84 @@
     line-height: 50px;
     text-align: center;
     vertical-align: top;
-  }
-  
-  .width-and-height {
+}
+
+.width-and-height {
     height: 50px;
     width: 50px;
-  }
-  
-  /* insira na classe abaixo um padding de 20px para aplicá-lo aos itens B, C e D */
-  .padding {
+}
+
+/* insira na classe abaixo um padding de 20px para aplicá-lo aos itens B, C e D */
+.padding {
     padding: 20px;
-  }
-  
-  /* insira na classe abaixo uma margem de 30px para aplicá-la aos itens C e D */
-  .margin {
+}
+
+/* insira na classe abaixo uma margem de 30px para aplicá-la aos itens C e D */
+.margin {
     margin: 30px;
-  }
-  
-  /* insira na classe abaixo uma borda com valor '5px solid black' para aplicá-la ao item D */
-  .border {
+}
+
+/* insira na classe abaixo uma borda com valor '5px solid black' para aplicá-la ao item D */
+.border {
     border: 5px solid black;
-  }
+}
 
 /* EXERCICIO SUPER MARIO */
 
-  .super-mario {
+.super-mario {
     width: 200px;
     position: absolute;
     z-index: 1;
-  }
-  
-  .goomba {
+}
+
+.goomba {
     width: 100px;
     position: absolute;
     z-index: 2;
     top: 380px;
     left: 70px;
-  }
-  
-  .baloon {
+}
+
+.baloon {
     position: absolute;
     z-index: 3;
     left: 220px;
-  }
-  
-  .speach {
+}
+
+.speach {
     font-size: 25px;
     position: absolute;
     z-index: 4;
     left: 240px;
     top: 120px;
-  }
-  
-  .bowser {
+}
+
+.bowser {
     width: 200px;
     position: absolute;
     z-index: 5;
     top: 200px;
     left: 520px;
 
-  }
+}
 
-  /* EXERCICIO PALETA DE CORES */
+/* EXERCICIO PSEUDO CLASSES */
 
-  h1, p {
+h1, p {
     text-align: center;
-  }
+}
 
-  ol:hover {
+ol:hover {
     background-color: rgb(179, 133, 202);
-  }
+}
 
-  li:active {
+li:active {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  }
+}
 
-  div:hover {
+div:hover {
     border: 3px solid black;
-  }
+}
 
 /* --onyx: #32373bff;
 --cool-grey: #8c86aaff;
@@ -94,51 +94,69 @@
 /* Precisei assistir a aula do Gus no gabarito porque eu não tinha conhecimento
 dessa :nth-of-type() e lá ele explicou certinho o que é e como usar. */
 
-  div:nth-of-type(1) {
+div:nth-of-type(1) {
     background-color: #32373bff;
-  }
+}
 
-  div:nth-of-type(2) {
+div:nth-of-type(2) {
     background-color: #8c86aaff;
-  }
+}
 
-  div:nth-of-type(3) {
+div:nth-of-type(3) {
     background-color: rgb(205, 223, 141);
-  }
+}
 
-  div:nth-of-type(4) {
+div:nth-of-type(4) {
     background-color: #ff6b6bff;
-  }
+}
 
-  div:nth-of-type(5) {
+div:nth-of-type(5) {
     background-color: #ffe66dff;
-  }
+}
 
-  /* Estilizar cada uma das <h3> */
+/* Estilizar cada uma das <h3> */
 
-  div:nth-of-type(1) > h3 {
+div:nth-of-type(1)>h3 {
     color: #f7fff7ff;
-  }
+}
 
-  div:nth-of-type(2) > h3 {
-    color: rgb(44, 4, 16);    
-  }
+div:nth-of-type(2)>h3 {
+    color: rgb(44, 4, 16);
+    font-family: monospace;
+}
 
-  div:nth-of-type(3) > h3 {
+div:nth-of-type(3)>h3 {
     color: rgb(226, 35, 35);
-  }
+}
 
-  div:nth-of-type(4) > h3 {
+div:nth-of-type(4)>h3 {
     color: rgb(14, 99, 14);
-  }
+    font-weight: 100;
+}
 
-  div:nth-of-type(5) > h3 {
+div:nth-of-type(5)>h3 {
     color: rgb(47, 0, 255);
-  }
+    font-size: xx-large;
+}
 
-  /* Terceira div maior que as demais */
+/* Terceira div maior que as demais */
 
-  div:nth-of-type(3) {
+div:nth-of-type(3) {
     height: 50px;
-  }
-  
+}
+
+/* Tags h3 ímpares em itálico */
+
+/* Tentei com nth-of-type(1, 3, 5) mas parece que não é assim */
+
+/* div:nth-of-type(1, 3, 5) > h3 {
+    font-style: italic;
+}
+ */
+
+/*  Acabei por assistir a vídeo aula do gabarito do Gus e ele explicou
+ sobre :nth-child() e o even/odd, que no caso é a resposta. */
+
+ div:nth-child(odd) h3 {
+    font-style: italic;
+ }
