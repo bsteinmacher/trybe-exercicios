@@ -76,5 +76,34 @@
   }
 
   div:hover {
-    border: 1px solid black;
+    border: 3px solid black;
+  }
+
+/* --onyx: #32373bff;
+--cool-grey: #8c86aaff;
+--mint-cream: #f7fff7ff;
+--bittersweet: #ff6b6bff;
+--yellow-crayola: #ffe66dff; */
+
+/* Precisei assistir a aula do Gus no gabarito porque eu não tinha conhecimento
+dessa :nth-of-type() e lá ele explicou certinho o que é e como usar. */
+
+  div:nth-of-type(1) {
+    background-color: #32373bff;
+  }
+
+  div:nth-of-type(2) {
+    background-color: #8c86aaff;
+  }
+
+  div:nth-of-type(3) {
+    background-color: rgb(205, 223, 141);
+  }
+
+  div:nth-of-type(4) {
+    background-color: #ff6b6bff;
+  }
+
+  div:nth-of-type(5) {
+    background-color: #ffe66dff;
   }
