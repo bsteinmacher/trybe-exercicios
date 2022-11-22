@@ -10,17 +10,6 @@
     margin: 0px;
 }
 
-.aside-tabela  {
-    background-color: orange;
-    width: 60%;
-    padding-left: 10px;
-    margin-left: 10px;
-    float: right;
-    font-style: italic;
-    color: #03647Dff;
-    text-align: left;
-}
-
 header {
     background-color: orangered;
 }
@@ -33,9 +22,10 @@ header h1 {
     color: rgb(255, 255, 255);
 }
 
-header h3 {
+header h2 {
     margin-top: -10px;
     margin-left: 50px;
+    margin-bottom: 20px;
     font-weight: lighter;
     font-family: 'Raleway', sans-serif;
     color: rgb(255, 255, 255);
@@ -44,6 +34,8 @@ header h3 {
 .nav-menu {
     background-color: orange;
     margin-top: 10px;
+    padding: 3px;
+    color: black;
 }
 
 .nav-menu li {
@@ -57,5 +49,38 @@ header h3 {
 }
 
 article {
-    margin-top: 100px;
+    margin-top: 50px;
+}
+
+article header {
+    background-color: pink;
+    padding: 5px;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 10px;
+}
+
+article header p {
+    padding: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+section {
+    margin-top: 50px;
+    margin-left: 10px ;
+}
+
+table {
+    background-color: blue;
+    border: 0px solid rgb(0, 0, 0);
+    text-align: left;
+}
+
+td {
+    background-color: orange;
+    border: 0px solid rgb(0, 0, 0);
+}
+
+footer {
+    margin-top: 50px;
 }
