@@ -6,7 +6,12 @@
 --lavender-web: #D7E0F1ff;
 */
 
+* {
+    margin: 0px;
+}
+
 .aside-tabela  {
+    background-color: orange;
     width: 60%;
     padding-left: 10px;
     margin-left: 10px;
@@ -16,3 +21,41 @@
     text-align: left;
 }
 
+header {
+    background-color: orangered;
+}
+
+header h1 {
+    margin-left: 50px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 65px;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+}
+
+header h3 {
+    margin-top: -10px;
+    margin-left: 50px;
+    font-weight: lighter;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.nav-menu {
+    background-color: orange;
+    margin-top: 10px;
+}
+
+.nav-menu li {
+    display: inline-block;
+    width: 200px;
+    margin-left: 50px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+}
+
+article {
+    margin-top: 100px;
+}
