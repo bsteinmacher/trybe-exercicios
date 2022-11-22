@@ -1,32 +1,18 @@
-thead,
-tfoot {
-    background-color: #3f87a6;
-    color: #fff;
+/* CSS HEX - coolors.co 
+--fulvous: #DA8700ff;
+--blue-sapphire: #03647Dff;
+--dark-sienna: #4A2127ff;
+--mauvelous: #E7A0A8ff;
+--lavender-web: #D7E0F1ff;
+*/
+
+.aside-tabela  {
+    width: 60%;
+    padding-left: 10px;
+    margin-left: 10px;
+    float: right;
+    font-style: italic;
+    color: #03647Dff;
+    text-align: left;
 }
 
-tbody {
-    background-color: #e4f0f5;
-}
-
-caption {
-    padding: 10px;
-    caption-side: bottom;
-}
-
-table {
-    border-collapse: collapse;
-    border: 2px solid rgb(200, 200, 200);
-    letter-spacing: 1px;
-    font-family: sans-serif;
-    font-size: .8rem;
-}
-
-td,
-th {
-    border: 1px solid rgb(190, 190, 190);
-    padding: 5px 10px;
-}
-
-td {
-    text-align: center;
-}
