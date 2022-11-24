@@ -2,7 +2,7 @@ const currentHour = 22;
 let message = "";
 
 if (currentHour >= 22) {
-    message = "Não deveríamos comer nada, é hora de dormir";
+    message = "Não deveríamos comer nada, é hora de dormir :(";
 } 
 else if (currentHour < 22 && currentHour >=18) {
     message = "Rango da noite, vamos jantar :D";
