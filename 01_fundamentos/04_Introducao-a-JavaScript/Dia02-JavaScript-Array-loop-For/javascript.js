@@ -26,3 +26,20 @@ if (media > 20) {
     
 }
 
+// Utilizando for, descubra qual o maior valor contido no array e imprima-o;
+let maior = 0;
+for (index = 0; index < numbers.length; index += 1) {
+    if (maior < numbers[index]) {
+        maior = numbers[index];
+    }
+}
+console.log('Maior número é o : ' + maior);
+
+// Descubra quantos valores ímpares existem no array e imprima o resultado. Caso não exista nenhum, imprima a mensagem: “nenhum valor ímpar encontrado”;
+let impares = 0;
+for (index = 0; index < numbers.length; index += 1) {
+    if ( numbers[index] % 2 !== 0) {
+        impares += 1;
+    }
+}
+console.log('São ' + impares + ' números ímpares.');
