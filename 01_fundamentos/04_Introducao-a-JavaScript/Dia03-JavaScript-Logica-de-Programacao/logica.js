@@ -20,4 +20,20 @@ for (index = 0; index < array.length; index += 1) {
         menorPalavra = array[index];
     }
 }
-console.log('A maior palavrá é:' , maiorPalavra , 'e a menor é:' ,  menorPalavra);
+console.log('A maior palavrá é:', maiorPalavra, 'e a menor é:', menorPalavra);
+
+//Um número primo é um número inteiro maior do que 1 que possui somente dois divisores, ou seja, é divisível por 1 e por ele mesmo. Sabendo disso, escreva um algoritmo que imprima no console o maior número primo entre 2 e 50.
+let maiorPrimo = 55;
+
+for (index = 2; index <= 50; index += 1) {
+    let primo = true;
+    for (novoIndex = 2; novoIndex < index; novoIndex += 1) {
+        if (index % novoIndex === 0) {
+            primo = false;
+        }
+    }
+    if (primo === true) {
+        maiorPrimo = index;
+    }
+}
+console.log('O maior número primo entre 2 e 50 é:' , maiorPrimo);
