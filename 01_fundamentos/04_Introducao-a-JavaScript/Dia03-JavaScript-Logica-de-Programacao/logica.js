@@ -10,7 +10,14 @@ console.log(drow);
 
 // Utilize a estrutura de repetição for para escrever dois algoritmos: um que imprima no console a maior palavra desse array e outro que imprima a menor. Considere o número de caracteres de cada palavra.
 let array = ['java', 'javascript', 'python', 'html', 'css'];
+let maiorPalavra = "";
+let menorPalavra = "";
 
 for (index = 0; index < array.length; index += 1) {
-    console.log(array[index]);
+    if (maiorPalavra.length < array[index].length) {
+        maiorPalavra = array[index];
+    } else {
+        menorPalavra = array[index];
+    }
 }
+console.log('A maior palavrá é:' , maiorPalavra , 'e a menor é:' ,  menorPalavra);
