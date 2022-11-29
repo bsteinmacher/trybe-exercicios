@@ -1,0 +1,86 @@
+/* CSS HEX - coolors.co 
+--fulvous: #DA8700ff;
+--blue-sapphire: #03647Dff;
+--dark-sienna: #4A2127ff;
+--mauvelous: #E7A0A8ff;
+--lavender-web: #D7E0F1ff;
+*/
+
+* {
+    margin: 0px;
+}
+
+header {
+    background-color: orangered;
+}
+
+header h1 {
+    margin-left: 50px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 65px;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+}
+
+header h2 {
+    margin-top: -10px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.nav-menu {
+    background-color: orange;
+    margin-top: 10px;
+    padding: 3px;
+    color: black;
+}
+
+.nav-menu li {
+    display: inline-block;
+    width: 200px;
+    margin-left: 50px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+}
+
+article {
+    margin-top: 50px;
+}
+
+article header {
+    background-color: pink;
+    padding: 5px;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 10px;
+}
+
+article header p {
+    padding: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+section {
+    margin-top: 50px;
+    margin-left: 10px ;
+}
+
+table {
+    background-color: blue;
+    border: 0px solid rgb(0, 0, 0);
+    text-align: left;
+}
+
+td {
+    background-color: orange;
+    border: 0px solid rgb(0, 0, 0);
+}
+
+footer {
+    margin-top: 50px;
+}
