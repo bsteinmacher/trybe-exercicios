@@ -82,7 +82,21 @@
             title.innerHTML = 'Desafio - JavaScript';
         }
         changeTitle();
-        
+
+        function capsLock() {
+            let capszao = document.getElementsByTagName('p')[0];
+            capszao.innerHTML = capszao.innerHTML.toUpperCase();
+        }
+        capsLock();
+
+        function consolePrint() {
+            let printable = document.getElementsByName('p');
+            for (let index = 0; index < printable.length; index += 1) {
+                console.log(printable[index].innerHTML);
+            }
+        }
+        consolePrint();
+
     </script>
 </body>
 
