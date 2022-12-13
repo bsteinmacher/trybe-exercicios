@@ -34,16 +34,16 @@ const valorRecebido = 10;
 let checaValor = Boolean;
 if (valorRecebido > 0) {
     checaValor = true;
-    console.log(checaValor ,("o número é positivo."));
+    console.log(checaValor ,(": o número é positivo."));
 } else if (valorRecebido < 0) {
     checaValor = false;
-    console.log(checaValor ,("o número é negativo."));
+    console.log(checaValor ,(": o número é negativo."));
 } else {
     console.log(valorRecebido);
 }
 
-// Eu me senti muito orgulhoso desse código, mas depois que fui conferir as palavras, ele pede "positive" e "negative", e eu achei que era "true" e "false"    :(
-// Tentei salvar colocando o texto "o número é positivo/negativo" pra estar mais perto da resposta, mas vou deixar assim porque achei ele bem bonitinho        :D
+// Eu me senti orgulhoso desse código, mas depois que fui conferir as palavras, ele pede "positive" e "negative", e eu achei que era "true" e "false"    :(
+// Tentei salvar colocando o texto "o número é positivo/negativo" pra estar mais perto da resposta, mas vou deixar assim porque achei ele bem bonitinho   :D
 
 
 
