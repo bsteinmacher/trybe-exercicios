@@ -24,7 +24,7 @@ console.log(person.bestInTheWorld);
 
 
 // Acesse a chave bestInTheWorld, usando a sintaxe meuObjeto['chave'], e faça um console.log no seguinte formato: “A jogadora Marta Silva foi eleita a melhor do mundo por 6 vezes”.
-console.log('A jogadora' , person.name , person.lastName , 'foi eleita a melhor do mundo por' , person['bestInTheWorld'].lenght , 'vezes.');
+console.log('A jogadora' , person.name , person.lastName , 'foi eleita a melhor do mundo por' , person['bestInTheWorld'].length , 'vezes.');
 
 // Acesse a chave medals, usando a sintaxe meuObjeto.chave, e faça um console.log no seguinte formato: “A jogadora possui 2 medalhas de ouro e 3 medalhas de prata”.
 console.log('A jogadora' , person.name , person.lastName , 'possui' , person.medals.golden , 'medalhas de ouro e' , person.medals.silver , 'medalhas de prata.');
