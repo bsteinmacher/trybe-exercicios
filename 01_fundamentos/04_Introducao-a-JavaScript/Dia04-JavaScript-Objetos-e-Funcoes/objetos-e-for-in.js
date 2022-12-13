@@ -62,8 +62,8 @@ for (let index in leitor.livrosFavoritos) {
 
 // Adicione um novo livro favorito na chave livrosFavoritos, que é um array. Atribua a essa chave um objeto contendo as seguintes informações: {     titulo: 'Harry Potter e o Prisioneiro de Azkaban',     autor: 'JK Rowling',     editora:  'Rocco',   }
 
-{
-    titulo: 'Harry Potter e o Prisioneiro de Azkaban',
-    autor: 'JK Rowling',
-    editora: 'Rocco',
-}
+// {
+//     titulo: 'Harry Potter e o Prisioneiro de Azkaban',
+//     autor: 'JK Rowling',
+//     editora: 'Rocco',
+// }
